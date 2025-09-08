@@ -69,6 +69,7 @@ dependencies:
     - blis==0.7.9
     - boto3==1.26.149
     - botocore==1.29.149
+    # - cached-path==1.1.6
     - cached-path
     - cachetools==5.3.1
     - catalogue==2.0.8
@@ -185,4 +186,4 @@ dependencies:
     - wasabi==0.10.1
     - xxhash==3.2.0
     - yarl==1.9.1
-prefix: /home2/y2024/m2430132/.conda/envs/temporal_llms
+prefix: /home/miyazato/miniforge3/envs/temporal_llms
