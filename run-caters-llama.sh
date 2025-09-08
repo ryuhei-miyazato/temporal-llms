@@ -1,9 +1,9 @@
 #!/bin/bash
 
-conda activate llama-hf
+# conda activate temporal_llms
 
 
-model_path="/PATH/TO/YOUR/LLAMA/MODEL"
+model_path="meta-llama/Llama-3.1-8B-Instruct"
 
 # model_name="llama-7b"
 # model_name="llama-13b"
@@ -15,7 +15,8 @@ model_path="/PATH/TO/YOUR/LLAMA/MODEL"
 # model_name="Llama-2-70b-hf"
 # model_name="Llama-2-7b-chat-hf"
 # model_name="Llama-2-13b-chat-hf"
-model_name="Llama-2-70b-chat-hf"
+# model_name="Llama-2-70b-chat-hf"
+model_name= "meta-llama/Llama-3.1-8B-Instruct"
 
 num_examples=3
 
